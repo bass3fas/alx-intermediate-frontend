@@ -1,4 +1,30 @@
-Linux installation
-In ubuntu terminal installed node version 20.16 as follows:
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-Exited the terminal using the exit command then reopened it.
+Installed Node.js version 20.16 using nvm:
+
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+
+Exited the terminal using the exit command, then reopened it. Activated nvm and installed Node.js:
+
+
+nvm install 20.16
+nvm use 20.16
+
+
+Verified Node.js and npm installation:
+
+
+node -v
+npm -v
+
+
+Installed SASS globally:
+
+
+npm install -g sass
+
+
+Verified SASS installation:
+
+
+sass --version
